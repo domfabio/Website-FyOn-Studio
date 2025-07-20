@@ -12,7 +12,6 @@
 
 <h1 align="center">Website Responsivo FyOn Studio</h1>
 
----
 
 ### 🧭 Navegação Rápida
 
