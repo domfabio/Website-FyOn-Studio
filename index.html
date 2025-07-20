@@ -1,0 +1,1310 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      FyOn Studio – Websites estratégicos, marketing e design digital.
+    </title>
+    <meta
+      name="description"
+      content="Websites estratégicos, marketing e design digital"
+    />
+
+    <!-- Meta SEO -->
+    <meta
+      name="keywords"
+      content="web design, sites, blogs, landing page, desenvolvimento de websites, ui design, marketing digital, FyOn, sites profissionais"
+    />
+    <meta name="author" content="FyOn Studio" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (Facebook, LinkedIn) -->
+    <meta
+      property="og:title"
+      content="FyOn Studio – Websites estratégicos, marketing e design digital"
+    />
+    <meta
+      property="og:description"
+      content="Criação de Sites, Landing Pages e Design estratégico para marcas que querem crescer online."
+    />
+    <meta
+      property="og:image"
+      content="https://www.fyonstudio.com.br/src/img/thumb-fyon.jpg"
+    />
+    <meta property="og:url" content="https://www.fyonstudio.com.br/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="FyOn Studio – Websites estratégicos, marketing e design digital"
+    />
+    <meta
+      name="twitter:description"
+      content="Websites e marketing digital para empresas que querem se destacar na internet."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.fyonstudio.com.br/src/img/thumb-fyon.jpg"
+    />
+
+    <!-- Ícone -->
+    <link rel="icon" type="image/svg+xml" href="./src/img/logo-fyon-2.svg" />
+
+    <!--Preconnect para Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/output.css" />
+
+    <!-- Scripts -->
+    <script src="./src/js/cursor.js" defer></script>
+    <script src="./src/js/data-number.js" defer></script>
+    <script src="./src/js/acordian.js" defer></script>
+    <script src="./src/js/menu.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css"
+    />
+  </head>
+
+  <body
+    id="topo"
+    class="font-inter scroll-mt-0 bg-slate-900 bg-[url('../img/web-fyon-globe-2.png')] bg-[size:70%] bg-[position:top_center] bg-no-repeat sm:bg-[size:35%]"
+  >
+    <header
+      class="sticky top-4 z-999 m-4 mb-44 rounded-full border border-gray-800 bg-[rgba(8,12,22,0.6)] shadow-sm backdrop-blur-[9px]"
+    >
+      <div class="mx-auto w-full p-4 sm:pl-8">
+        <nav class="flex items-center justify-between">
+          <a
+            href="#topo"
+            class="mb-4 hidden items-center space-x-3 sm:mb-0 sm:flex rtl:space-x-reverse"
+          >
+            <img
+              src="./src/img/logo-fyon.svg"
+              class="mb-1 h-[30px]"
+              alt="FyOn Studio Logo"
+            />
+          </a>
+          <a
+            href="#topo"
+            class="flex items-center space-x-3 sm:hidden rtl:space-x-reverse"
+          >
+            <img
+              src="./src/img/logo-fyon-2.svg"
+              class="h-10"
+              alt="FyOn Studio Logo"
+            />
+          </a>
+          <ul
+            class="hidden items-center gap-6 text-sm font-normal text-slate-300 md:flex"
+          >
+            <li>
+              <a
+                href="#projetos"
+                class="relative inline-block text-sm uppercase transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:h-[2px] before:w-0 before:bg-[#C8FF2F] before:transition-all before:duration-300 before:content-[''] hover:before:left-0 hover:before:w-full"
+              >
+                PROJETOS
+              </a>
+            </li>
+            <li>
+              <a
+                href="#sobre"
+                class="relative inline-block text-sm uppercase transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:h-[2px] before:w-0 before:bg-[#C8FF2F] before:transition-all before:duration-300 before:content-[''] hover:before:left-0 hover:before:w-full"
+              >
+                SOBRE
+              </a>
+            </li>
+            <li>
+              <a
+                href="#fazemos"
+                class="relative inline-block text-sm uppercase transition-all duration-300 before:absolute before:-bottom-1 before:left-1/2 before:h-[2px] before:w-0 before:bg-[#C8FF2F] before:transition-all before:duration-300 before:content-[''] hover:before:left-0 hover:before:w-full"
+              >
+                O QUE FAZEMOS
+              </a>
+            </li>
+            <li>
+              <a
+                href="#fale-conosco"
+                class="block cursor-pointer rounded-full border-2 border-[#C8FF2F] px-5 py-4 text-center font-medium text-[#C8FF2F] transition-all duration-500 hover:bg-[#C8FF2F] hover:text-gray-900"
+              >
+                FALE CONOSCO
+              </a>
+            </li>
+          </ul>
+          <button
+            id="openMenu"
+            class="cursor-pointer text-slate-300 md:hidden"
+            aria-label="Abrir menu"
+          >
+            <svg
+              class="h-8 w-8"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- menu responsivo -->
+    <div
+      id="mobileMenu"
+      class="fixed inset-0 z-[9999] flex translate-x-full flex-col items-center justify-center space-y-8 bg-[#0C1120] text-base text-slate-200 uppercase transition-all duration-500"
+    >
+      <button
+        id="closeMenu"
+        aria-label="Fechar menu"
+        class="absolute top-9 right-8 cursor-pointer text-slate-300"
+      >
+        <svg
+          class="h-8 w-8"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+
+      <a
+        href="#projetos"
+        class="hover:text-[#C8FF2F]"
+        onclick="closeMobileMenu()"
+        >Projetos</a
+      >
+      <a href="#sobre" class="hover:text-[#C8FF2F]" onclick="closeMobileMenu()"
+        >Sobre</a
+      >
+      <a
+        href="#fazemos"
+        class="hover:text-[#C8FF2F]"
+        onclick="closeMobileMenu()"
+        >O que fazemos</a
+      >
+      <a
+        href="#fale-conosco"
+        class="mt-8 w-2/4 rounded-full border-2 border-[#C8FF2F] px-5 py-4 text-center text-[#C8FF2F] transition hover:bg-[#C8FF2F] hover:text-gray-900"
+        onclick="closeMobileMenu()"
+        >Fale conosco</a
+      >
+    </div>
+    <!-- menu responsivo -->
+
+    <!-- hero -->
+    <section class="hero mx-auto mb-32 max-w-7xl px-4">
+      <h4 class="mb-4 text-xl font-medium text-slate-200 sm:text-4xl md:mb-6">
+        Conecte sua marca à web e fique online.
+      </h4>
+
+      <h1
+        class="mb-6 text-5xl leading-12 font-semibold tracking-tight text-[#C8FF2F] md:mb-8 md:text-8xl md:leading-[90px]"
+      >
+        websites estratégicos, marketing e design digital.
+      </h1>
+
+      <p
+        class="mb-6 max-w-[627px] text-lg font-medium text-slate-400 md:mb-8 md:text-2xl"
+      >
+        Transformamos ideias em soluções digitais completas, com foco total em
+        quem interage com sua marca.
+      </p>
+
+      <a
+        href="#projetos"
+        class="flex w-full cursor-pointer items-center justify-center rounded-full border-2 border-purple-600 px-6 py-5 text-center text-base font-medium tracking-wide text-purple-600 transition-all duration-500 hover:bg-purple-600 hover:text-gray-950 sm:w-fit sm:px-5 sm:py-4 sm:text-sm"
+      >
+        VER PROJETOS
+      </a>
+    </section>
+    <!-- hero -->
+
+    <!-- anime-header -->
+    <div class="relative mb-24 w-full overflow-hidden">
+      <!-- Gradientes nas bordas -->
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-gray-900 to-transparent"
+      ></div>
+      <div
+        class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-gray-900 to-transparent"
+      ></div>
+
+      <!-- Faixa animada -->
+      <div class="overflow-hidden">
+        <div class="animate-marquee-slow flex w-max">
+          <!-- Bloco 1 -->
+          <span
+            style="
+              text-shadow:
+                -1px -1px 0 #62748e,
+                1px -1px 0 #62748e,
+                -1px 1px 0 #62748e,
+                1px 1px 0 #62748e,
+                0 -1px 0 #62748e,
+                0 1px 0 #62748e,
+                -1px 0 0 #62748e,
+                1px 0 0 #62748e;
+            "
+            class="mr-4 text-6xl font-extrabold whitespace-nowrap text-gray-900 uppercase sm:text-8xl"
+          >
+            Desenvolvimento Web · Websites · Landing Pages · Estrategia · UI
+            Design · Web Design · UX · Criatividade · Branding · Resultados ·
+            Marketing · Social Media · Identidade Visual · Front-End ·</span
+          >
+          <!-- Bloco 2 -->
+          <span
+            style="
+              text-shadow:
+                -1px -1px 0 #62748e,
+                1px -1px 0 #62748e,
+                -1px 1px 0 #62748e,
+                1px 1px 0 #62748e,
+                0 -1px 0 #62748e,
+                0 1px 0 #62748e,
+                -1px 0 0 #62748e,
+                1px 0 0 #62748e;
+            "
+            class="mr-4 text-6xl font-extrabold whitespace-nowrap text-gray-900 uppercase sm:text-8xl"
+          >
+            Desenvolvimento Web · Websites · Landing Pages · Estrategia · UI
+            Design · Web Design · UX · Criatividade · Branding · Resultados ·
+            Marketing · Social Media · Identidade Visual · Front-End ·</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- anime-header -->
+
+    <!-- contador -->
+    <section class="mb-32 px-4">
+      <div
+        class="mx-auto flex max-w-5xl flex-col items-center justify-around gap-4 rounded-3xl border border-gray-800 bg-[#0C1120] p-4 text-center md:flex-row"
+      >
+        <!-- Item 1 -->
+        <div class="flex flex-col">
+          <span
+            class="text-5xl font-bold text-purple-600 sm:text-7xl"
+            data-target="320"
+            >0</span
+          >
+          <span class="mt-1 self-center text-xl font-semibold text-slate-400"
+            >Clientes Atendidos</span
+          >
+        </div>
+
+        <div
+          class="mx-auto block w-3/4 border-t border-solid border-slate-700 md:hidden"
+        ></div>
+        <div
+          class="hidden h-20 border-l border-solid border-slate-700 md:block"
+        ></div>
+
+        <!-- Item 2 -->
+        <div class="flex flex-col">
+          <span
+            class="text-5xl font-bold text-purple-600 sm:text-7xl"
+            data-target="1500"
+            >0</span
+          >
+          <span class="mt-1 text-xl font-semibold text-slate-400"
+            >Projetos Entregues</span
+          >
+        </div>
+
+        <div
+          class="mx-auto block w-3/4 border-t border-solid border-slate-700 md:hidden"
+        ></div>
+        <div
+          class="hidden h-20 border-l border-solid border-slate-700 md:block"
+        ></div>
+
+        <!-- Item 3 -->
+        <div class="flex flex-col">
+          <span
+            class="text-5xl font-bold text-purple-600 sm:text-7xl"
+            data-target="15"
+            >0</span
+          >
+          <span class="mt-1 text-xl font-semibold text-slate-400"
+            >Anos de Experiência</span
+          >
+        </div>
+      </div>
+    </section>
+    <!-- contador -->
+
+    <!-- galeria -->
+    <section id="projetos" class="mb-32 scroll-mt-24 bg-[#0C1120] pt-10 pb-20">
+      <h2
+        class="mx-auto mb-4 max-w-7xl px-4 text-2xl font-semibold text-[#C8FF2F]"
+      >
+        PROJETOS RECENTES
+      </h2>
+
+      <div
+        id="custom-cursor"
+        class="mx-auto grid max-w-7xl gap-5 p-4 sm:grid-cols-2 md:grid-cols-4"
+      >
+        <!-- Grupo 1 -->
+        <div class="grid gap-4">
+          <a
+            href="./src/img/gallery/sneak-xl.webp"
+            data-lg-group="grupo1"
+            data-sub-html="Landing Page Sneak"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/sneak.webp"
+              alt="Landing Page Sneak"
+              loading="lazy"
+            />
+          </a>
+          <a
+            href="./src/img/gallery/marshal-xl.jpg"
+            data-lg-group="grupo1"
+            data-sub-html="Landing Page Marshal"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/marshal.png"
+              alt="Landing Page Marshal"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <!-- Grupo 2 -->
+        <div class="grid gap-4">
+          <a
+            href="./src/img/gallery/congresso-xl.webp"
+            data-lg-group="grupo1"
+            data-sub-html="Redesign Website Congresso Holístico"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/congresso.png"
+              alt="Redesign Website Congresso Holístico"
+              loading="lazy"
+            />
+          </a>
+          <a
+            href="./src/img/gallery/quest-two-xl.webp"
+            data-lg-group="grupo2"
+            data-sub-html="UI Design Landing Page Quest 2"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/quest-two.webp"
+              alt="UI Design Landing Page Quest 2"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <!-- Grupo 3 -->
+        <div class="grid gap-4">
+          <a
+            href="./src/img/gallery/five-xl.webp"
+            data-lg-group="grupo3"
+            data-sub-html="Projeto Marketing e ID Visual FiveActs"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/five.webp"
+              alt="Projeto Marketing e ID Visual FiveActs"
+              loading="lazy"
+            />
+          </a>
+          <a
+            href="./src/img/gallery/casa-la-luna-xl.webp"
+            data-lg-group="grupo3"
+            data-sub-html="Website Responsivo Casa La Luna"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/casa-la-luna.webp"
+              alt="Website Responsivo Casa La Luna"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        <!-- Grupo 4 -->
+        <div class="grid gap-4">
+          <a
+            href="./src/img/gallery/design-systems-xl.webp"
+            data-lg-group="grupo4"
+            data-sub-html="Website Responsivo Design Systems"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/design-systems.webp"
+              alt="Website Responsivo Design Systems"
+              loading="lazy"
+            />
+          </a>
+          <a
+            href="./src/img/gallery/black-coffee-xl.webp"
+            data-lg-group="grupo4"
+            data-sub-html="Website Black Coffee"
+            class="custom-cursor-area block overflow-hidden rounded-3xl"
+            loading="lazy"
+          >
+            <img
+              class="h-full w-full cursor-pointer object-cover transition-transform duration-300 ease-out hover:scale-105"
+              src="./src/img/gallery/blackcoffee.webp"
+              alt="Website Black Coffee"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- galeria -->
+
+    <!-- cursor -->
+    <div
+      id="floating-cursor"
+      class="border-opacity-40 pointer-events-none fixed z-50 h-10 w-10 scale-95 rounded-full border-[5px] border-white bg-[#C8FF2F] opacity-0 transition-all duration-200 ease-out"
+    ></div>
+    <!-- cursor -->
+
+    <!-- sobre -->
+    <section id="sobre" class="mb-32 scroll-mt-24 p-4">
+      <div
+        class="mx-auto flex max-w-5xl flex-col items-center rounded-3xl border border-gray-800 bg-[#0C1120] p-6 md:flex-row"
+      >
+        <!-- Imagem esquerda -->
+        <div class="mb-4 w-full md:mb-0 md:w-1/2">
+          <img
+            src="./src/img/fabio-dom.webp"
+            alt="Founder Fábio Dom"
+            loading="lazy"
+            class="h-auto w-full rounded-xl object-cover"
+          />
+        </div>
+        <!-- Texto à direita -->
+        <div class="w-full text-center md:w-2/3 md:pl-6 md:text-left">
+          <h2 class="mb-4 text-2xl font-semibold text-[#C8FF2F]">SOBRE</h2>
+          <p class="flex flex-col text-base text-slate-400 xl:text-lg">
+            <span class="mb-2.5">
+              Com mais de 15 anos de experiência em design digital, Fábio Dom é
+              fundador da FyOn Studio, especialista em Desenvolvimento Web
+              Front-End e Design de Interface do Usuário (UI Design).
+            </span>
+            <span class="mb-2.5 text-slate-400">
+              Profissional graduado em Marketing Digital e credenciado pelo
+              <a
+                href="https://www.credly.com/badges/957392b2-a59d-41d8-ba86-3982c0465756/print"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition duration-500 hover:text-purple-600"
+              >
+                Google em User Experience Design (UX Design) </a
+              >, Fábio acumula conhecimento consolidado por diversas
+              certificações, atua liderando o desenvolvimento de projetos
+              criativos que transformam ideias inovadoras em soluções digitais
+              excepcionais.
+            </span>
+            <span class="mb-2.5 text-slate-400">
+              Além de entregar soluções digitais de alta performance, Fábio
+              compartilha seu conhecimento por meio de seus canais no
+              <a
+                href="https://www.youtube.com/@domfabioweb"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition duration-500 hover:text-purple-600"
+              >
+                YouTube
+              </a>
+              e
+              <a
+                href="https://www.instagram.com/domfabioweb"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition duration-500 hover:text-purple-600"
+              >
+                Instagram </a
+              >, inspirando a comunidade tech e criativa.
+            </span>
+            <span class="mb-2.5">
+              Apaixonado por tecnologia, design, inovação e o universo web, está
+              sempre em sintonia com as mais recentes tendências e soluções
+              digitais.
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- fazemos -->
+    <section
+      id="fazemos"
+      class="mb-32 w-full scroll-mt-20 bg-[#0C1120] px-4 py-20 pt-20 pb-20"
+    >
+      <div class="mx-auto max-w-5xl">
+        <div class="mx-auto mb-10 max-w-6xl text-center">
+          <h2 class="mb-4 text-2xl font-semibold text-[#C8FF2F]">
+            O QUE FAZEMOS
+          </h2>
+          <p class="text-lg text-slate-400">
+            Soluções digitais criativas e estratégicas para transformar sua
+            presença online.
+          </p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1: Desenvolvimento Web -->
+          <div
+            class="flex transform flex-col items-center rounded-3xl border border-gray-800 bg-gray-900 p-6 text-center transition duration-500 hover:-translate-y-2 sm:items-start sm:text-left"
+          >
+            <span
+              class="icon-[ant-design--code-outlined] mb-4 text-4xl text-purple-600"
+            ></span>
+
+            <h3 class="mb-4 text-xl font-semibold text-slate-200">
+              Desenvolvimento Web
+            </h3>
+            <hr
+              class="mx-auto mt-4 mb-8 w-full border-0 border-t border-purple-800"
+            />
+            <ul class="space-y-2 text-sm text-slate-400">
+              <li>Websites modernos e responsivos</li>
+              <li>Landing pages e páginas de vendas</li>
+              <li>Front-End com foco em performance</li>
+              <li>Integração com ferramentas e APIs</li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Design Digital -->
+          <div
+            class="flex transform flex-col items-center rounded-3xl border border-gray-800 bg-gray-900 p-6 text-center transition duration-500 hover:-translate-y-2 sm:items-start sm:text-left"
+          >
+            <span
+              class="icon-[solar--palette-round-linear] mb-4 text-4xl text-purple-600"
+            ></span>
+            <h3 class="mb-4 text-xl font-semibold text-slate-200">
+              Design de Produtos Digitais
+            </h3>
+            <hr
+              class="mx-auto mt-4 mb-8 w-full border-0 border-t border-purple-800"
+            />
+            <ul class="space-y-2 text-sm text-slate-400">
+              <li>UI Design centrado no usuário</li>
+              <li>Web design otimizado</li>
+              <li>UX Design focado em usabilidade</li>
+              <li>Identidade Visual e Branding</li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Marketing e Estratégia -->
+          <div
+            class="flex transform flex-col items-center rounded-3xl border border-gray-800 bg-gray-900 p-6 text-center transition duration-500 hover:-translate-y-2 sm:items-start sm:text-left"
+          >
+            <span
+              class="icon-[heroicons--rocket-launch] mb-4 text-4xl text-purple-600"
+            ></span>
+            <h3 class="mb-4 text-xl font-semibold text-slate-200">
+              Marketing Digital
+            </h3>
+            <hr
+              class="mx-auto mt-4 mb-8 w-full border-0 border-t border-purple-800"
+            />
+            <ul class="space-y-2 text-sm text-slate-400">
+              <li>Criação de conteúdo estratégico</li>
+              <li>Social media e gestão de mídias sociais</li>
+              <li>Otimização e visibilidade online (SEO)</li>
+              <li>Assessoria web boost</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fazemos -->
+
+    <!-- testemunhos -->
+    <section class="mb-24 px-4">
+      <div class="mx-auto mb-20 max-w-5xl text-center">
+        <h3 class="mb-4 text-xl font-semibold text-[#C8FF2F] uppercase">
+          O que falam sobre nós
+        </h3>
+        <p class="text-lg text-slate-400">
+          Depoimentos recentes de clientes satisfeitos com nossos serviços
+          digitais.
+        </p>
+      </div>
+
+      <div class="mx-auto grid max-w-5xl gap-16 sm:gap-4 md:grid-cols-2">
+        <!-- Testemunho -->
+        <div
+          class="relative rounded-3xl border border-gray-800 bg-[#0C1120] p-6 transition duration-500 hover:-translate-y-1"
+        >
+          <!-- Foto no topo -->
+          <div class="absolute -top-10 left-1/2 -translate-x-1/2 transform">
+            <img
+              src="./src/img/five-logo.png"
+              alt="FiveActs"
+              class="h-20 w-20 rounded-full border-4 border-[#0C1120]"
+            />
+          </div>
+          <div class="mt-12 text-center">
+            <p class="mb-4 text-slate-400 italic">
+              "A interface do nosso Dashboard ficou incrível, com uma identidade
+              visual excepcional e marcante."
+            </p>
+            <h3 class="font-semibold text-slate-100">Equipe - Five Acts</h3>
+            <p class="text-sm text-slate-500">Analytics & BI</p>
+          </div>
+        </div>
+
+        <!-- Outro testemunho -->
+        <div
+          class="relative rounded-3xl border border-gray-800 bg-[#0C1120] p-6 transition duration-500 hover:-translate-y-1"
+        >
+          <div class="absolute -top-10 left-1/2 -translate-x-1/2 transform">
+            <img
+              src="./src/img/profile-tchel.png"
+              alt="Tchel Soares"
+              class="h-20 w-20 rounded-full border-4 border-[#0C1120]"
+            />
+          </div>
+          <div class="mt-12 text-center">
+            <p class="mb-4 text-slate-400 italic">
+              "Fiquei realmente impressionada com o resultado do meu blog. O
+              atendimento foi excelente!"
+            </p>
+            <h3 class="font-semibold text-slate-100">Tchel Soares</h3>
+            <p class="text-sm text-slate-500">Blog Cheia de Estilo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testemunhos -->
+
+    <!-- empresas -->
+    <section class="relative mb-24 w-full overflow-hidden py-16">
+      <!-- Gradientes nas bordas -->
+      <div
+        class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-gray-900 to-transparent"
+      ></div>
+      <div
+        class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-gray-900 to-transparent"
+      ></div>
+
+      <!-- Faixa animada com logos -->
+      <div class="overflow-hidden">
+        <div
+          class="animate-marquee flex w-max items-center gap-16 px-4 will-change-transform"
+        >
+          <img
+            src="./src/img/logos/logo-five.svg"
+            alt="five"
+            class="h-10 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-sodexo.svg"
+            alt="sodexo"
+            class="mb-6 h-12 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-smart.svg"
+            alt="smart"
+            class="h-8 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-pago.svg"
+            alt="pago"
+            class="mt-2 h-9 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-jll.svg"
+            alt="jll"
+            class="h-10 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-jbs.svg"
+            alt="jbs"
+            class="h-10 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-ffx.svg"
+            alt="ffx"
+            class="mt-4 h-12 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+
+          <img
+            src="./src/img/logos/logo-five.svg"
+            alt="five"
+            class="h-10 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-sodexo.svg"
+            alt="sodexo"
+            class="mb-6 h-12 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-smart.svg"
+            alt="smart"
+            class="h-8 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-pago.svg"
+            alt="pago"
+            class="mt-2 h-9 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-jll.svg"
+            alt="jll"
+            class="h-10 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-jbs.svg"
+            alt="jbs"
+            class="h-10 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+          <img
+            src="./src/img/logos/logo-ffx.svg"
+            alt="ffx"
+            class="mt-4 h-12 object-contain brightness-75 transition duration-500 hover:brightness-100"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- empresas -->
+
+    <!-- faq -->
+    <section class="mb-32 bg-[#0C1120] px-4 py-20 text-slate-400">
+      <div class="mx-auto max-w-3xl">
+        <h3
+          class="mb-6 text-center text-xl font-semibold text-[#C8FF2F] uppercase"
+        >
+          Perguntas Frequentes
+        </h3>
+
+        <div class="space-y-4">
+          <!-- FAQ Item -->
+          <div
+            class="faq-item overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+          >
+            <button
+              class="faq-button flex w-full cursor-pointer items-start justify-between gap-4 p-5 text-left font-medium text-slate-300 transition-colors duration-300 hover:bg-slate-800 sm:font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-base leading-snug sm:text-[1.05rem]"
+                >Como funciona o orçamento?</span
+              >
+
+              <svg
+                class="mt-1 h-6 w-6 shrink-0 transform transition-transform sm:h-5 sm:w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              class="faq-content max-h-0 overflow-hidden px-5 text-sm opacity-0 transition-all duration-500 ease-in-out"
+            >
+              <p class="py-5">
+                Após uma conversa inicial e análise do briefing, enviamos uma
+                proposta personalizada com valores, prazos e etapas detalhadas.
+                Você pode solicitar seu orçamento sem compromisso pelo nosso
+                WhatsApp.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+          >
+            <button
+              class="faq-button flex w-full cursor-pointer items-start justify-between gap-4 p-5 text-left font-medium text-slate-300 transition-colors duration-300 hover:bg-slate-800 sm:font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-base leading-snug sm:text-[1.05rem]"
+                >Quanto tempo leva para entregar um site ou projeto de
+                design?</span
+              >
+
+              <svg
+                class="mt-1 h-6 w-6 shrink-0 transform transition-transform sm:h-5 sm:w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              class="faq-content max-h-0 overflow-hidden px-5 text-sm opacity-0 transition-all duration-500 ease-in-out"
+            >
+              <p class="py-5 pb-0">
+                Os prazos variam conforme o escopo e a complexidade. Aqui vai
+                uma média:
+              </p>
+              <ul class="list-inside list-disc py-5 pt-2">
+                <li>Landing page: 5 a 10 dias úteis</li>
+                <li>Site institucional completo: 15 a 30 dias úteis</li>
+                <li>
+                  Projeto de identidade visual ou redes sociais: 5 a 20 dias
+                  úteis
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="faq-item overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+          >
+            <button
+              class="faq-button flex w-full cursor-pointer items-start justify-between gap-4 p-5 text-left font-medium text-slate-300 transition-colors duration-300 hover:bg-slate-800 sm:font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-base leading-snug sm:text-[1.05rem]"
+                >Vocês oferecem hospedagem e domínio para o site?</span
+              >
+
+              <svg
+                class="mt-1 h-6 w-6 shrink-0 transform transition-transform sm:h-5 sm:w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              class="faq-content max-h-0 overflow-hidden px-5 text-sm opacity-0 transition-all duration-500 ease-in-out"
+            >
+              <p class="py-5">
+                Oferecemos serviço de hospedagem, cuidando da configuração,
+                manutenção e segurança para garantir que seu site esteja sempre
+                disponível e com ótimo desempenho. Quanto ao domínio, orientamos
+                você na escolha ideal e na aquisição junto a fornecedores
+                confiáveis, assegurando que tudo esteja perfeitamente integrado.
+                Além disso, com a Assessoria Web Boost, acompanhamos seu projeto
+                mesmo após o lançamento, promovendo otimizações, atualizações e
+                melhorias constantes para que sua presença digital evolua.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+          >
+            <button
+              class="faq-button flex w-full cursor-pointer items-start justify-between gap-4 p-5 text-left font-medium text-slate-300 transition-colors duration-300 hover:bg-slate-800 sm:font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-base leading-snug sm:text-[1.05rem]"
+                >Meu site vai aparecer no Google?</span
+              >
+
+              <svg
+                class="mt-1 h-6 w-6 shrink-0 transform transition-transform sm:h-5 sm:w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              class="faq-content max-h-0 overflow-hidden px-5 text-sm opacity-0 transition-all duration-500 ease-in-out"
+            >
+              <p class="py-5">
+                Sim, implementamos práticas básicas de SEO (Search Engine
+                Optimization) para melhorar o ranqueamento orgânico. Também
+                podemos oferecer estratégias avançadas de SEO e Marketing
+                Digital como serviço adicional.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+          >
+            <button
+              class="faq-button flex w-full cursor-pointer items-start justify-between gap-4 p-5 text-left font-medium text-slate-300 transition-colors duration-300 hover:bg-slate-800 sm:font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-base leading-snug sm:text-[1.05rem]"
+                >Vocês também trabalham com redes sociais?</span
+              >
+
+              <svg
+                class="mt-1 h-6 w-6 shrink-0 transform transition-transform sm:h-5 sm:w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              class="faq-content max-h-0 overflow-hidden px-5 text-sm opacity-0 transition-all duration-500 ease-in-out"
+            >
+              <p class="py-5">
+                Sim, oferecemos assessoria em Marketing Digital, Gestão de
+                Mídias Sociais e Design, incluindo posts, destaques, capas,
+                identidade visual etc. Sempre de forma estratégica, com foco em
+                engajamento e consistência com a identidade da sua marca.
+              </p>
+            </div>
+          </div>
+          <div
+            class="faq-item overflow-hidden rounded-2xl border border-slate-800 bg-slate-900"
+          >
+            <button
+              class="faq-button flex w-full cursor-pointer items-start justify-between gap-4 p-5 text-left font-medium text-slate-300 transition-colors duration-300 hover:bg-slate-800 sm:font-semibold"
+              onclick="toggleFaq(this)"
+            >
+              <span class="text-base leading-snug sm:text-[1.05rem]"
+                >Como vocês garantem que tudo será entregue como
+                combinado?</span
+              >
+
+              <svg
+                class="mt-1 h-6 w-6 shrink-0 transform transition-transform sm:h-5 sm:w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              class="faq-content max-h-0 overflow-hidden px-5 text-sm opacity-0 transition-all duration-500 ease-in-out"
+            >
+              <p class="py-5">
+                Para sua segurança, formalizamos tudo com um contrato digital
+                detalhado, que especifica prazos, valores, escopo do projeto e
+                responsabilidades. Isso garante transparência e compromisso em
+                cada etapa do serviço.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq -->
+
+    <!-- CONTATO -->
+
+    <section id="fale-conosco" class="mb-32 scroll-mt-40 p-4">
+      <div
+        class="mx-auto flex max-w-3xl flex-col items-center rounded-3xl border border-gray-800 bg-[#0C1120] p-8 text-center"
+      >
+        <!-- Título e texto -->
+        <h2 class="mb-4 text-2xl font-semibold text-[#C8FF2F]">FALE CONOSCO</h2>
+        <p class="mb-10 max-w-[600px] text-base text-slate-400 xl:text-lg">
+          Tem um projeto em mente ou quer tirar ainda mais suas dúvidas? Chame a
+          FyOn Studio no WhatsApp e vamos criar algo incrível juntos!
+        </p>
+
+        <!-- Botão WhatsApp -->
+        <a
+          href="https://api.whatsapp.com/send?phone=5521971881095&text=Ol%C3%A1%21%20Estava%20navegando%20pelo%20site%20da%20FyOn%20e%20me%20interessei%20pelos%20servi%C3%A7os.%20Poderia%20me%20passar%20mais%20informa%C3%A7%C3%B5es%2C%20por%20favor%3F"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex w-full items-center justify-center rounded-full border-2 border-green-500 px-6 py-5 font-semibold text-green-500 transition duration-300 hover:border-green-500 hover:bg-green-500 hover:text-white sm:w-fit sm:px-5 sm:py-4"
+        >
+          <span class="icon-[fa6-brands--whatsapp] mr-2 text-2xl"></span> Falar
+          no WhatsApp
+        </a>
+        <hr class="mx-auto mt-10 w-full border-0 border-t border-gray-800" />
+
+        <!-- Carrossel infinito -->
+        <div class="mt-7 w-full overflow-hidden">
+          <div class="animate-marquee flex whitespace-nowrap">
+            <!-- Bloco 1 -->
+            <div class="shrink-0">
+              <span class="text-sm font-medium text-slate-600">
+                Desenvolvimento Web · Websites · Landing Pages · Estratégia · UI
+                Design · Web Design · UX · Criatividade · Branding · Resultados
+                · Marketing · Gestão de Mídias Digitais · Social Media ·
+                Identidade Visual · Front-End ·
+              </span>
+            </div>
+            <!-- Bloco 2 -->
+            <div class="shrink-0">
+              <span class="text-sm font-medium text-slate-600">
+                Desenvolvimento Web · Websites · Landing Pages · Estratégia · UI
+                Design · Web Design · UX · Criatividade · Branding · Resultados
+                · Marketing · Gestão de Mídias Digitais · Social Media ·
+                Identidade Visual · Front-End ·
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="m-4 rounded-3xl border border-gray-800 bg-[#0C1120]">
+      <div class="mx-auto w-full max-w-screen-xl p-4 md:py-8">
+        <!-- Linha 1: Logo à esquerda + redes sociais à direita -->
+        <div class="mb-6 flex items-center justify-between">
+          <a href="#topo" class="mb-4 hidden items-center sm:mb-0 sm:flex">
+            <img
+              src="./src/img/logo-fyon.svg"
+              class="h-6 w-auto"
+              alt="FyOn Studio Logo"
+            />
+          </a>
+          <a href="#topo" class="flex items-center sm:hidden">
+            <img
+              src="./src/img/logo-fyon-2.svg"
+              class="h-10 w-10"
+              alt="FyOn Studio Logo"
+            />
+          </a>
+          <div class="!important flex gap-6">
+            <a
+              href="https://www.instagram.com/fyon.studio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              class="block"
+            >
+              <span
+                class="icon-[fa6-brands--instagram] block text-2xl text-purple-600 transition-all duration-500 hover:text-[#C8FF2F]"
+              ></span>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/fyonstudio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Linkedin"
+              class="block"
+            >
+              <span
+                class="icon-[fa6-brands--linkedin-in] block text-2xl text-purple-600 transition-all duration-500 hover:text-[#C8FF2F]"
+              ></span>
+            </a>
+            <a
+              href="https://www.behance.net/fyonstudio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Behance"
+              class="block"
+            >
+              <span
+                class="icon-[fa6-brands--behance] block text-2xl text-purple-600 transition-all duration-500 hover:text-[#C8FF2F]"
+              ></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Linha 2: Navegação centralizada -->
+        <nav aria-label="Links do rodapé">
+          <ul
+            class="mt-4 mb-6 flex flex-wrap justify-center gap-4 text-xs font-medium text-slate-400 sm:mt-0 sm:gap-6 sm:text-sm"
+          >
+            <li>
+              <a
+                href="#projetos"
+                class="transition-all duration-500 hover:text-gray-50"
+                >Projetos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#sobre"
+                class="transition-all duration-500 hover:text-gray-50"
+                >Sobre</a
+              >
+            </li>
+            <li>
+              <a
+                href="#fazemos"
+                class="transition-all duration-500 hover:text-gray-50"
+                >O Que Fazemos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#fale-conosco"
+                class="transition-all duration-500 hover:text-gray-50"
+                >Fale Conosco</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Linha 3: Direitos autorais e links legais -->
+        <hr class="my-6 border-purple-800 sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span
+            class="block text-center text-xs font-medium text-slate-700 sm:text-sm"
+          >
+            © 2018 → 2025 FyOn Studio. Todos os direitos reservados.
+          </span>
+          <div
+            class="mt-2 mb-2 flex flex-wrap items-center justify-center text-xs font-medium text-slate-700 sm:mt-0 sm:mb-0"
+          >
+            <a
+              href="#"
+              class="me-4 transition-all duration-500 hover:text-gray-600 md:me-6"
+              >política de privacidade</a
+            >
+            <a href="#" class="transition-all duration-500 hover:text-gray-600"
+              >cookies</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      @keyframes marquee {
+        0% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      .animate-marquee {
+        animation: marquee 20s linear infinite;
+      }
+
+      .animate-marquee-slow {
+        animation: marquee 150s linear infinite;
+      }
+
+      .lg-outer .lg-thumb-item.active {
+        border-color: #c8ff2f !important;
+      }
+
+      .lg-outer .lg-thumb-item:hover {
+        border-color: #9810fa !important;
+      }
+
+      .lg-outer .lg-thumb-item {
+        border-color: #62748e !important;
+      }
+
+      /* Animação suave ao abrir imagem */
+      .lg-current .lg-object {
+        opacity: 0;
+        transform: scale(0.96);
+        animation: fadeInImage 0.5s ease-out forwards;
+      }
+
+      .lg-outer {
+        left: 5px;
+      }
+
+      @keyframes fadeInImage {
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @media (max-width: 640px) {
+        .lg-outer .lg-thumb {
+          display: flex !important;
+          justify-content: center;
+          padding: 0 5px 30px;
+          gap: 2px;
+        }
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+    <script>
+      lightGallery(document.getElementById("custom-cursor"), {
+        selector: "a",
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        download: false,
+        animateThumb: false,
+        zoomFromOrigin: false,
+        allowMediaOverlap: true,
+        toggleThumb: true,
+        mobileSettings: {
+          controls: false, // mostra os controles no mobile
+          showCloseIcon: true, // mostra o botão de fechar no mobile
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "git-hub-fabio-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@iconify-json/fa-brands": "^1.2.1",
+    "@iconify/json": "^2.2.352",
+    "@iconify/tailwind4": "^1.0.6",
+    "@tailwindcss/cli": "^4.1.10",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.10"
+  }
+}
