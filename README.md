@@ -19,7 +19,7 @@
 - 📝 [Sobre](#-sobre)
 - 🚀 [UI e Deploy](#-ui-e-deploy)
 - 🧩 [Principais Dependências](#-principais-dependências)
-- ▶️ [Clone do Repositório](#-clone-do-repositório)
+- 📋 [Clone do Repositório](#-clone-do-repositório)
 - 🤝 [Contribuições](#-contribuições)
 
 ---
