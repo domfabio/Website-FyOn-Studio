@@ -34,7 +34,7 @@ O layout é totalmente **responsivo**, garantindo ótima usabilidade em **deskto
 ### 🚀 UI e Deploy
 <div align="center">
 <p >
-  <img src="./src/img/thumb-fyon.jpg" width="650px" alt="Captura de tela do projeto" style="border: none;">
+  <img src="./src/img/thumb-fyon.jpg" width="720px" alt="Captura de tela do projeto" style="border: none;">
 </p>
 
 [→ Ver Projeto On-line 🔗](https://fyonstudio.com.br)
